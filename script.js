@@ -97,7 +97,7 @@ async function fetchmovieonBody(movieTitle) {
 function showMovieModal(data) {
     document.getElementById("modalTitle").innerText = `Movie: ${data.Title}`;
     document.getElementById("modalYearGenre").innerText = `Genre: ${data.Genre}`;
-    document.getElementById("Actor").innerText= `Actors: ${data.Actor}`
+    document.getElementById("Actor").innerText= `Actors: ${data.Actors}`
     document.getElementById("Country").innerText=`Country: ${data.Country}`
     document.getElementById("Released").innerText=`Released: ${data.Released}`
     document.getElementById("Awards").innerText=`Awards: ${data.Awards}`
